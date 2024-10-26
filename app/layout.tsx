@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NextUiProvider from "./_components/shared/NextUiProvider";
 
 export const metadata: Metadata = {
 	title: "Think Space",
@@ -13,7 +14,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`antialiased`}>{children}</body>
+			<body className={`antialiased`}>
+				<NextUiProvider>
+					{children}
+				</NextUiProvider>
+			</body>
 		</html>
 	);
 }
