@@ -1,11 +1,7 @@
-import { NextPage } from "next";
+import type { NextPage } from "next";
 
 const Homepage: NextPage = () => {
-  return (
-    <>
-      Think SPACE
-    </>
-  )
-}
+	return <>Think SPACE</>;
+};
 
 export default Homepage;
