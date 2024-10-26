@@ -6,7 +6,7 @@ const Homepage: NextPage = () => {
 		<>
 			<HeroWrapper />
 		</>
-	)
+	);
 };
 
 export default Homepage;

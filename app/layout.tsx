@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NextUiProvider from "./_components/shared/NextUiProvider";
 import Navigation from "./_components/shared/Navigation";
+import NextUiProvider from "./_components/shared/NextUiProvider";
 
 export const metadata: Metadata = {
 	title: "Think Space",
