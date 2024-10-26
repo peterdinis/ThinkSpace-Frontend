@@ -9,5 +9,5 @@ module.exports = {
 	theme: {
 		extends: {},
 	},
-	plugins: [nextui()],
+	plugins: [nextui(), require("@tailwindcss/aspect-ratio")],
 };
